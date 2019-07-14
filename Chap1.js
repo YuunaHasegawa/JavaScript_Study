@@ -1,5 +1,5 @@
 //chap1-4-1
-console.log('Helooworld');
+console.log('Hello world');
 
 
 //chap1-5-1
