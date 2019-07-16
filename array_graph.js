@@ -18,3 +18,5 @@ for(let num of array){
     } 
     console.log(out);
 }
+
+    

@@ -66,5 +66,5 @@ console.log(wdays[5]);
 // chap3-6-2
 // 配列の要素を書き換える
 let wdays = ['月','火','水','木','金','土','日'];
-wdays[1] = '炎'
+wdays[1] = '炎';
 console.log(wdays);
