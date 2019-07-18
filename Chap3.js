@@ -68,3 +68,23 @@ console.log(wdays[5]);
 let wdays = ['月','火','水','木','金','土','日'];
 wdays[1] = '炎';
 console.log(wdays);
+
+// chap3-7-1
+// for ~ of分で配列を利用する
+// 配列から１要素ずつ取り出して繰り返す
+
+let wdays = ["月","火","水","木","金","土","日"];
+for (let day of wdays){
+  console.log(day + "曜日");
+}
+
+// chap3-3-2
+// for分を使ってインデックスを指定する
+// インデックスとは？=> 検索を楽にするための情報
+// 今回の場合は、配列の添字のこと
+
+let wdays = ["月","火","水","木","金","土","日"];
+for( let cnt = 0; cnt < 5; cnt++){
+  console.log(wdays[cnt] + "曜日");
+}
+
