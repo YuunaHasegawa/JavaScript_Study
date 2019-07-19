@@ -88,3 +88,26 @@ for( let cnt = 0; cnt < 5; cnt++){
   console.log(wdays[cnt] + "曜日");
 }
 
+
+// chap3-8-1
+// 総当たり戦の表を作成
+
+let team = ["A","B","C","D","E" ];
+for(let t1 of team){
+  for( let t2 of team){
+      console.log(t1 + "vs" + t2);
+  }
+}
+
+// chap3-8-2
+// チーム名が等しくないときだけ表示する
+
+let team = ["A","B","C","D","E" ];
+  for(let t1 of team){
+    for(let t2 of team){
+      if(t1 != t2){
+        console.log(t1 + "vs" + t2);
+      }
+    }
+  }
+
