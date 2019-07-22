@@ -111,3 +111,15 @@ let team = ["A","B","C","D","E" ];
     }
   }
 
+//chap3 復習ドリル
+//問題１
+let dir = ["東","西","南","北"];
+for(let d of dir ){
+    console.log(d);
+}
+
+//問題２
+let wedays = ["月","火","水","木","金"];
+for(let cnt = 4; cnt>=0; cnt--){
+    console.log(wedays[cnt] + "曜日");
+}
